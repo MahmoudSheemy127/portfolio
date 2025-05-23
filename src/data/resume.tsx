@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import { link } from "fs";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import { start } from "repl";
 
@@ -154,7 +155,7 @@ export const DATA = {
   projects: [
     {
       title: "Zcommerce",
-      // href: "https://chatcollect.com",
+      href: "",
       dates: "May 2025 - June 2025",
       active: true,
       description:
@@ -170,6 +171,7 @@ export const DATA = {
         "Stripe",
         "Shadcn UI",
       ],
+      links:[],
       image: "",
       video: "https://mahmoudsheemy.s3.eu-north-1.amazonaws.com/zcommerce.mp4",
       // video: "",
@@ -202,6 +204,7 @@ export const DATA = {
     },
     {
       title: "SchoolDrive",
+      href: "",
       dates: "April 2023 - September 2023",
       active: true,
       description:
@@ -214,6 +217,7 @@ export const DATA = {
         "TailwindCSS",
         "mapbox"
       ],
+      links: [],
       image: "",
       // video: "",
       video: "https://mahmoudsheemy.s3.eu-north-1.amazonaws.com/SchoolDrive.mp4",
@@ -248,6 +252,7 @@ export const DATA = {
     },
       {
       title: "SmartDrive",
+      href: "",
       dates: "April 2022 - March 2022",
       active: true,
       description:
@@ -264,6 +269,7 @@ export const DATA = {
         "AWS Cognito",
         "AWS Cloudfront",
       ],
+      links:[],
       image: "/serverless.png",
       video:
         "",
