@@ -114,6 +114,7 @@ export default function Page() {
                 altText={certification.title}
                 subtitle={certification.issuer}
                 title={certification.title}
+                period={`${certification.start} - ${certification.end}`}
               />
             </BlurFade>
           ))}

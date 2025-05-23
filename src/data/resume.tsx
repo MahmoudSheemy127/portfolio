@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { start } from "repl";
 
 export const DATA = {
   name: "Mahmoud Elsheemy",
@@ -145,6 +146,8 @@ export const DATA = {
       title: "AWS Certified Cloud Practitioner",
       href: "https://www.credly.com/badges/0b5f2c3d-4a8e-4a1b-9c7f-6d1e2f3b5c3e/public_url",
       issuer: "Amazon Web Services",
+      start: "May 2025",
+      end: "May 2028",
       image: "/aws.png",
     }
   ],
