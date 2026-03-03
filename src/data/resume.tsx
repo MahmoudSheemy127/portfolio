@@ -13,7 +13,7 @@ export const DATA = {
     "Backend & Fullstack Web Developer",
   summary:
     "I am a passionate software engineer with a strong background in backend and fullstack web development. I have experience in building scalable and efficient applications using modern technologies. I am always eager to learn new skills and improve my knowledge in the field.",
-  avatarUrl: "/me.jpeg",
+  avatarUrl: "/Mahmoud_Elsheemy.jpg",
   skills: [
     "Java",
     "Go",
@@ -77,11 +77,13 @@ export const DATA = {
       href: "https://www.ejada.com/",
       badges: [],
       location: "Onsite",
-      title: "Application Support specialist",
+      // title: "Application Support specialist",
+      title: "Backend Engineer",
       logoUrl: "/ejada_icon.jpeg",
       start: "August 2024",
       end: "Present",
-      description: "Currently working as an Application Support Specialist, responsible for providing technical support and troubleshooting for various applications. Collaborated with cross-functional teams to resolve issues and ensure smooth operation of software systems. Assisted in the implementation of new features and enhancements, while also maintaining documentation and user guides.",
+      // description: "Currently working as an Application Support Specialist, responsible for providing technical support and troubleshooting for various applications. Collaborated with cross-functional teams to resolve issues and ensure smooth operation of software systems. Assisted in the implementation of new features and enhancements, while also maintaining documentation and user guides.",
+      description: "Currently working as a Backend Engineer in EJADA, responsible for developing and maintaining backend systems for various applications in the both the banking and government sectors. Focusing on cloud native development and microservices architecture, utilizing technologies such as Java, Springboot, AWS, and Docker. Collaborating with cross-functional teams to design and implement scalable and efficient backend solutions, while also ensuring security and performance.",
     },
     {
       company: "Upwork",
@@ -145,7 +147,7 @@ export const DATA = {
   certifications: [
     {
       title: "AWS Certified Cloud Practitioner",
-      href: "https://www.credly.com/badges/0b5f2c3d-4a8e-4a1b-9c7f-6d1e2f3b5c3e/public_url",
+      href: "",
       issuer: "Amazon Web Services",
       start: "May 2025",
       end: "May 2028",
@@ -153,6 +155,32 @@ export const DATA = {
     }
   ],
   projects: [
+    {
+      title: "Cloud-Native Video Transcoder",
+      href: "https://github.com/MahmoudSheemy127/VideoTranscoderSystem",
+      dates: "Jan 2026 -  Feb 2026",
+      active: true,
+      description:
+        "A robust, asynchronous video transcoding pipeline built on AWS, leveraging Java Quarkus, FFmpeg, and a Multi-Tier Architecture. This system converts media files (e.g., .mp4 to .gif) with high availability, automated scaling, and secure private networking. The project mainly focuses on Multitier architecture built on AWS.",
+      technologies: [
+        "Java Quarkus",
+        "AWS EC2",
+        "AWS S3",
+        "AWS SQS",
+        "AWS VPC",
+        "AWS Auto Scaling",
+        "FFmpeg",
+        "AWS AMI",
+        "AWS IAM",
+        "AWS CloudWatch",
+        "AWS CloudFormation",
+        "AWS DynamoDB"
+      ],
+      links:[],
+      image: "",
+      video: "https://mahmoudsheemy.s3.eu-north-1.amazonaws.com/portfolio_demo.mp4",
+      // video: "",
+    },
     {
       title: "Zcommerce",
       href: "",
