@@ -211,7 +211,7 @@ export const DATA = {
       ],
       image: "", 
       video: "https://mahmoudsheemy.s3.eu-north-1.amazonaws.com/zcommerce_showcase.mp4",
-    },,
+    },
     {
       title: "Zblogger",
       href: "https://github.com/MahmoudSheemy127/Zblogger",
