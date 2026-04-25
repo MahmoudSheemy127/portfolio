@@ -206,7 +206,7 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/MahmoudSheemy127/Zcommerce",
-          icon: "github",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "", 
