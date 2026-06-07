@@ -152,6 +152,14 @@ export const DATA = {
       start: "May 2025",
       end: "May 2028",
       image: "/aws.png",
+    },
+    {
+      title: "AWS Solutions Architect Associate",
+      href: "",
+      issuer: "Amazon Web Services",
+      start: "Jun 2026",
+      end: "Jun 2029",
+      image: "/aws.png",
     }
   ],
   projects: [
