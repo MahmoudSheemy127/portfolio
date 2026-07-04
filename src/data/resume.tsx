@@ -146,6 +146,14 @@ export const DATA = {
   ],
   certifications: [
     {
+      title: "AWS Certified Solutions Architect - Associate",
+      href: "",
+      issuer: "Amazon Web Services",
+      start: "Jun 2026",
+      end: "Jun 2029",
+      image: "/aws.png",
+    },
+    {
       title: "AWS Certified Cloud Practitioner",
       href: "",
       issuer: "Amazon Web Services",
@@ -155,6 +163,31 @@ export const DATA = {
     }
   ],
   projects: [
+     {
+      title: "Mojo",
+      href: "https://github.com/MahmoudSheemy127/mojo",
+      dates: "JUN 2026 -  JUL 2026",
+      active: true,
+      description:
+        "Web-based chat application built on top of Socket.io and NestJS for backend and Next.js for frontend. The application allows users to create chat rooms, send messages, and receive real-time updates. The application is hosted on AWS through a continuous integration and deployment pipeline.",
+      technologies: [
+        "NestJS",
+        "Socket.IO",
+        "Redis",
+        "PostgreSQL",
+        "Next.js",
+        "Typescript",
+        "AWS ECS",
+        "CI/CD",
+        "Docker",
+        "OAuth2.0",
+        "JWT"
+      ],
+      links:[],
+      image: "",
+      video: "https://mahmoudsheemy.s3.eu-north-1.amazonaws.com/Mojo.mp4",
+      // video: "",
+    },
     {
       title: "Cloud-Native Video Transcoder",
       href: "https://github.com/MahmoudSheemy127/VideoTranscoderSystem",
