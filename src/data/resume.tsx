@@ -146,14 +146,6 @@ export const DATA = {
   ],
   certifications: [
     {
-      title: "AWS Certified Solutions Architect - Associate",
-      href: "",
-      issuer: "Amazon Web Services",
-      start: "Jun 2026",
-      end: "Jun 2029",
-      image: "/aws.png",
-    },
-    {
       title: "AWS Certified Cloud Practitioner",
       href: "",
       issuer: "Amazon Web Services",
